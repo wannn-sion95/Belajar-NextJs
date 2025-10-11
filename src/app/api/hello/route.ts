@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 let messages = [
   {
     id: 1,
-    text: "Saya sangat tertarik belajar NextJs untuk mengembangkan skill saya dalam web development",
+    text: "Tujuan saya mempelajari Next Js untuk mengembangkan skill dan pengetahuan saya dibidang web development, dan berniat untuk menjadi seorang Full-Stack Developer Hehe 😎",
     author: "Wann Sion",
     timestamp: new Date().toISOString(),
   },

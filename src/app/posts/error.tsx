@@ -19,7 +19,7 @@ export default function error({
         Terjadi Kesalahan!!!
       </h2>
       <p className="text-center mb-6">
-        Gagal memuat data postingan, Silahkan coba lagi nanti
+        Gagal memuat data API, Silahkan coba lagi nanti
       </p>
       <button
         onClick={() => reset()}

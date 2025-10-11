@@ -1,7 +1,6 @@
 // Lokasi file: src/app/posts/[id]/page.tsx
 
 import Link from "next/link";
-import LikeButton from "@/components/LikeButton";
 
 // Kita bisa pakai lagi interface Post yang sudah kita definisikan sebelumnya
 interface Post {
@@ -47,8 +46,6 @@ export default async function PostDetailPage({
         <p className="text-lg text-gray-300 mt-6 leading-relaxed">
           geo: {post.address.geo.lat}, {post.address.geo.lng}
         </p>
-
-        <LikeButton postId={post.id} />
       </div>
       <div className="mt-12">
         <Link href="/posts" className="text-lg text-blue-400 hover:underline">
