@@ -34,7 +34,7 @@ export default async function PostDetailPage({
   const post: Post = await response.json();
 
   return (
-    <main className="flex min-h-screen flex-col items-center p-8 md:p-24 bg-gray-950 text-gray-100">
+    <main className="flex min-h-screen flex-col items-center p-8 md:p-24 bg-zinc-950 text-gray-100">
       <div className="w-full max-w-3xl text-left">
         <h1 className="text-3xl font-bold mb-4">{post.name}</h1>
         <p className="text-lg text-gray-300 mt-6 leading-relaxed">
@@ -52,7 +52,7 @@ export default async function PostDetailPage({
       </div>
       <div className="mt-12">
         <Link href="/posts" className="text-lg text-blue-400 hover:underline">
-          &larr; Kembali ke Semua Postingan
+          &larr; Kembali ke Halaman Sebelumnya
         </Link>
       </div>
     </main>

@@ -1,20 +1,41 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ebe0e0;
-  --foreground: #171717;
+  --background: rgba(9, 9, 11, 1);
+  --foreground: rgba(9, 9, 11, 1);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #100f0f;
-    --foreground: #eae1e1;
+    --background: rgba(9, 9, 11, 1);
+    --foreground: rgba(9, 9, 11, 1);
   }
 }
 
 body {
   background: var(--background);
-  padding: 1rem;  
+  padding: 1rem;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Footer */
+.footer {
+  background-color: linear-gradient(
+    to top,
+    #09090b,
+    #0f172a
+  ); /* Warna cerah untuk footer */
+  color: #ffffff; /* Warna teks gelap */
+  text-align: center;
+  padding: 15px 0;
+  width: 100%;
+  margin-top: auto;
+  border-top: 1px solid #ddd;
+}
+
+body.dark-mode .footer {
+  background-color: rgba(9, 9, 11, 1);
+  color: #eee;
+  border-top: 1px solid #333;
 }

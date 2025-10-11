@@ -7,14 +7,17 @@ interface Post {
 
 export default async function PostPage() {
   // Ambil data dari API (users dummy JSONPlaceholder)
-  const response = await fetch("https://jsonplaceholder.typicode.com/users", {
-    cache: "no-store", // biar selalu fetch data baru
-  });
+  const response = await fetch(
+    "https://jsonplaceholder.typicode.com/users",
+    {
+      cache: "no-store", // biar selalu fetch data baru
+    }
+  );
 
   const posts: Post[] = await response.json();
 
   return (
-    <main className="flex min-h-screen flex-col items-center p-8 md:p-24 bg-gray-950 text-gray-100">
+    <main className="flex min-h-screen flex-col items-center p-8 md:p-24 bg-zinc-950 text-gray-100">
       <h1 className="text-4xl font-bold mb-8 text-blue-400">
         Daftar Nama pengguna
       </h1>
