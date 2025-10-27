@@ -3,8 +3,8 @@ import { NextResponse } from "next/server";
 let messages = [
   {
     id: 1,
-    text: "Tujuan saya mempelajari Next Js untuk mengembangkan skill dan pengetahuan saya dibidang web development, dan berniat untuk menjadi seorang Full-Stack Developer Hehe 😎",
-    author: "Wann Sion",
+    text: "Semoga membantu guys 😎",
+    author: "Mhd. Ridwan",
     timestamp: new Date().toISOString(),
   },
 ];

@@ -32,7 +32,7 @@ export default function ApiTestPage() {
   return (
     <div className="flex min-h-screen flex-col items-center p-8 md:p-10 bg-zinc-950 text-gray-100">
       <h1 className="text-3xl font-bold mb-6 text-blue-400">
-        Hasil dari API Backend:
+        Kata-kata dari Backend:
       </h1>
       {data && data.length > 0 ? (
         // Kita melakukan .map() untuk menampilkan setiap pesan di array

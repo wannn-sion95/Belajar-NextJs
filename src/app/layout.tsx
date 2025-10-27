@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Wannn Sion",
-  description: "Pertama kali belajar NextJs",
+  title: "Sistem Pendeteksi Frekuensi Radio FM",
+  description: "Website untuk menampilkan frekuensi radio FM komersial yang terdeteksi.",
 };
 
 export default function RootLayout({
