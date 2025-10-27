@@ -1,11 +1,9 @@
-// src/app/page.tsx
 "use client";
 
 import { useState, useEffect } from "react";
 import { database } from "../../firebaseConfig";
 import { ref, onValue } from "firebase/database";
 
-// (LANGKAH PENTING) Tentukan "bentuk" data stasiun kita
 interface StationData {
   name: string;
   frequency: number;
@@ -13,7 +11,6 @@ interface StationData {
 }
 
 export default function Home() {
-  // Terapkan "bentuk" data ke state kita
   const [stations, setStations] = useState<StationData[]>([]);
   const [loading, setLoading] = useState(true);
 
