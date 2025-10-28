@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { database } from "../../firebaseConfig";
+import { database } from "../firebaseConfig";
 import { ref, onValue } from "firebase/database";
 
 interface StationData {
